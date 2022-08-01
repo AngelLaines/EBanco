@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A75257C5-4D8A-408E-88AE-FAFDEE3D8288}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Ejecutivo_BancoDLP.My.MyApplication</StartupObject>
+    <RootNamespace>Ejecutivo_BancoDLP</RootNamespace>
+    <AssemblyName>Ejecutivo-BancoDLP</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Ejecutivo-BancoDLP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Ejecutivo-BancoDLP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmActualizar.Designer.vb">
+      <DependentUpon>frmActualizar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmActualizar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCancelacion.Designer.vb">
+      <DependentUpon>frmCancelacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCancelacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCancelacionDeTarjetas.Designer.vb">
+      <DependentUpon>frmCancelacionDeTarjetas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCancelacionDeTarjetas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaCiudad.Designer.vb">
+      <DependentUpon>frmConsultaCiudad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaCiudad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaEdad.Designer.vb">
+      <DependentUpon>frmConsultaEdad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaEdad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaNombre.Designer.vb">
+      <DependentUpon>frmConsultaNombre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaNombre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaSexo.Designer.vb">
+      <DependentUpon>frmConsultaSexo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaSexo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstadoDeCuenta.Designer.vb">
+      <DependentUpon>frmEstadoDeCuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstadoDeCuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicioSesion.Designer.vb">
+      <DependentUpon>frmInicioSesion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicioSesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistroCliente.Designer.vb">
+      <DependentUpon>frmRegistroCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistroCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejecutivo.vb" />
+    <Compile Include="frmReposiciondetarjetas.Designer.vb">
+      <DependentUpon>frmReposiciondetarjetas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReposiciondetarjetas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmActualizar.resx">
+      <DependentUpon>frmActualizar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCancelacion.resx">
+      <DependentUpon>frmCancelacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCancelacionDeTarjetas.resx">
+      <DependentUpon>frmCancelacionDeTarjetas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaCiudad.resx">
+      <DependentUpon>frmConsultaCiudad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaEdad.resx">
+      <DependentUpon>frmConsultaEdad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaNombre.resx">
+      <DependentUpon>frmConsultaNombre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaSexo.resx">
+      <DependentUpon>frmConsultaSexo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstadoDeCuenta.resx">
+      <DependentUpon>frmEstadoDeCuenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicioSesion.resx">
+      <DependentUpon>frmInicioSesion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistroCliente.resx">
+      <DependentUpon>frmRegistroCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReposiciondetarjetas.resx">
+      <DependentUpon>frmReposiciondetarjetas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
